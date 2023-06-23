@@ -1,12 +1,62 @@
 *{font-family:verdana;}
 
-header, h1, h2{
-    text-align: center;
-    color:rgb(255, 216, 216);
-    background-color: brown;    
+body{
+    background-color: rgb(255, 237, 214);
+    padding: 0;
+    margin:0;
+
 }
 
-footer, ul{
-    background-color: rgb(255, 187, 187);
+p{
+    text-align: center;
+    margin:30px
+    
+}
+
+h3{
+    text-align: center;
+}
+
+header, h1, h2{
+    text-align: center;
+    color:rgb(255, 255, 256);
+    background-color: brown;
+    padding: 10px;
+}
+
+h1, h2{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    background-color: brown;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer{
+    background-color: rgb(65, 31, 0);
     color: aliceblue;
+    padding-bottom: 10px;
+}
+
+img{
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#list-nav{
+    color:rgb(165, 42, 42);
+    margin: 10px;
+    margin-right: 80%;
+    background-color:rgb(65, 31, 0);
+    padding: 15px;
+    padding-left: 30px;
+    border-radius: 5%;
+}
+
+ol{
+    margin-left:10%;
 }
