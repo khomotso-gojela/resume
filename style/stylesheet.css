@@ -1,6 +1,12 @@
+*{font-family:verdana;}
+
 header, h1, h2{
     text-align: center;
+    color:rgb(255, 216, 216);
+    background-color: brown;    
+}
+
+footer, ul{
+    background-color: rgb(255, 187, 187);
     color: aliceblue;
-    background-color: brown;
-    
 }
