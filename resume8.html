@@ -6,15 +6,18 @@
         <link rel="stylesheet" href="style/stylesheet.css">
     </head>
     <body>
-        <header class="header"> 
-            <h1 class="head">Khomotso Gojela</h1>
-            <p>An introductory personal statement.</p>
-        </header>
+        <div id="headerdiv">
+            <header id="name" class="header"> 
+                <h1 class="head">Khomotso Gojela</h1>
+                <p>An introductory personal statement.</p>
+            </header>
 
-        <section class="sect">
-            
             <aside class="aside">            
-                <img src="images/image1.jpg" alt="resume photo" style="height:300px;width:300px">
+                <picture>
+                    <source srcset="images/image2-small.jpg" media="(max-width: 425px)">
+                    <source srcset="images/image2-medium.jpg" media="(max-width: 768px)">
+                    <img src="images/image2.jpg" alt="profile picture">
+                </picture>
 
                 <ul id="list-nav">
                     <li><a href="#edu">Education</a></li>
@@ -23,6 +26,10 @@
                     <li><a href="#con">Contact</a></li>
                 </ul>
             </aside>
+        </div>
+
+        <section class="sect">       
+            
 
             <article class="article"> 
                 <h2 class="head" id="edu">Education</h2>
@@ -54,7 +61,7 @@
        
 
         <footer class="footer">
-            <h2 id="con">Contact Details</h2>
+            <h2 id="con" class="head">Contact Details</h2>
     
             <p>
             <a href="https://www.facebook.com/" target="_blank">Facebook</a>
@@ -63,7 +70,7 @@
 
             <div id="formdiv">
 
-                <h4>Send An Email To Khomotso</h4>
+                <h4 class="head">Send An Email To Khomotso</h4>
                 <form action="https://formsubmit.co/motsoak49@gmail.com" method="post">
                     
                     <label for="subject">Select Email Subject</label>                    
@@ -90,10 +97,3 @@
         </footer>
     </body>
 </html>
-
-
-<picture>
-    <source srcset="images/image2-small.jpg" media="(max-width: 412px)">
-    <source srcset="images/image2-medium.jpg" media="(max-width: 820px)">
-    <img src="images/image2.jpg" alt="profile picture" height="500px" width="500px">
-</picture>

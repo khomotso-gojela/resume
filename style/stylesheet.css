@@ -1,5 +1,18 @@
 * {font-family:verdana;}
 
+#headerdiv {
+    background-image: url("../images/header-background1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    height: 60%;
+    width: 60%
+}
+
+
 body{
     background-color: rgb(255, 237, 214);
     padding: 0;
@@ -20,11 +33,10 @@ h3{
 header, h1, h2{
     text-align: center;
     color:rgb(255, 255, 256);
-    background-color: brown;
     padding: 10px;
 }
 
-h1, h2{
+h2{
     text-align: center;
     color:rgb(255, 255, 255);
     background-color: brown;
@@ -45,16 +57,14 @@ img{
     margin-right: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+   
 }
 
 #list-nav{
     color:rgb(165, 42, 42);
-    margin: 10px;
-    margin-right: 80%;
     background-color:rgb(65, 31, 0);
     padding: 15px;
     padding-left: 30px;
-    border-radius: 5%;
 }
 
 ol{
@@ -71,3 +81,31 @@ ol{
     padding-top: 1px;
     background-color: rgb(100, 48, 0);
 }
+
+/* Mobile phone screen */
+@media only screen and (max-width: 425px) {
+
+    .head, p, #list-nav, label {
+        font-size: smaller;
+    }
+    img {
+        height: 40%;
+        width: 40%
+    }
+
+}
+
+/* Tablet screen */
+@media only screen and (max-width: 768px) {
+
+    .head, p, #list-nav, label {
+        font-size:medium;
+    }
+    img {
+        height: 50%;
+        width: 50%
+    }
+
+}
+
+/* wider screens */
